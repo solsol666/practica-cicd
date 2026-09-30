@@ -1,0 +1,9 @@
+{
+  "name": "practica-cicd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "build": "echo 'Construyendo...' && mkdir -p dist && cp index.js dist/"
+  }
+}
